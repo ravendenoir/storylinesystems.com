@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - Storyline Systems</title>
+<style>
+:root{--bg:#0d0d1a;--border:#1e1e3a;--gold:#f5a623;--pink:#e91e8c;--muted:#8888aa;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:#e8e8f0;font-family:Georgia,serif;line-height:1.8;min-height:100vh;}
+nav{background:rgba(13,13,26,0.95);border-bottom:1px solid var(--border);padding:16px 40px;display:flex;align-items:center;position:sticky;top:0;z-index:100;}
+.logo{font-family:Arial Black,sans-serif;font-size:18px;font-weight:900;background:linear-gradient(135deg,#f5a623,#e91e8c);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:2px;}
+.back{margin-left:auto;color:var(--muted);text-decoration:none;font-family:sans-serif;font-size:14px;}
+.back:hover{color:var(--gold);}
+.wrap{max-width:800px;margin:0 auto;padding:60px 40px;}
+h1{font-size:38px;color:#fff;margin-bottom:8px;}
+.date{color:var(--muted);font-family:sans-serif;font-size:14px;margin-bottom:48px;padding-bottom:48px;border-bottom:1px solid var(--border);}
+h2{font-size:20px;color:var(--gold);font-family:Arial Black,sans-serif;margin-top:48px;margin-bottom:16px;}
+p{color:#c8c8e0;margin-bottom:16px;font-size:16px;}
+ul{color:#c8c8e0;margin:0 0 16px 24px;font-size:16px;}
+li{margin-bottom:8px;}
+a{color:var(--gold);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(245,166,35,0.08);border:1px solid rgba(245,166,35,0.2);padding:12px 20px;border-radius:6px;margin:32px 0;font-family:sans-serif;font-size:15px;color:#ffc84a;}
+footer{border-top:1px solid var(--border);padding:40px;text-align:center;color:var(--muted);font-family:sans-serif;font-size:13px;}
+footer a{color:var(--muted);}
+footer a:hover{color:var(--gold);}
+</style>
+</head>
+<body>
+<nav>
+  <span class="logo">STORYLINE SYSTEMS</span>
+  <a class="back" href="/">Back to Home</a>
+</nav>
+<div class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="date">Last updated: March 16, 2026</p>
+  <div class="badge">Local-First Software - Your data never leaves your device</div>
+  <h2>1. Our Software and Your Data</h2>
+  <p>Storyline Systems products are local-first desktop applications. All data you enter - book titles, release dates, series information, manuscript notes - is stored exclusively on your own device. We have no servers that receive your creative or business data. We cannot access it, and we do not want to.</p>
+  <h2>2. Information We Collect on This Website</h2>
+  <p>Our website is hosted on GitHub Pages. We do not use cookies, tracking pixels, analytics tools, or any third-party tracking scripts. We do not collect your name, email address, or IP address through website browsing.</p>
+  <h2>3. Information Collected During Purchase</h2>
+  <p>Purchases are processed by Lemon Squeezy, our merchant of record. Lemon Squeezy collects payment and billing information to process your transaction. Storyline Systems receives only your email address and product purchased - used solely to deliver your license and provide support.</p>
+  <h2>4. Email Communications</h2>
+  <p>If you contact us at <span id="e1"></span>, we retain that correspondence to provide support. We do not add you to any mailing list without explicit consent. We do not sell or share your email address with any third party.</p>
+  <h2>5. Third-Party Services</h2>
+  <p>Our business involves: GitHub Pages (website hosting), Lemon Squeezy (payment processing), and Namecheap (domain registration). We do not use Google Analytics, Facebook Pixel, or any advertising tracking technology.</p>
+  <h2>6. Children's Privacy</h2>
+  <p>Our software and website are not directed at children under 13. If you believe a child has provided us with personal information, contact us at <span id="e2"></span> and we will promptly delete it.</p>
+  <h2>7. Data Security</h2>
+  <p>Because our software stores no data on our servers, the security of your application data is entirely in your control. For the limited personal information we receive through purchases, we use industry-standard practices to protect it.</p>
+  <h2>8. Your Rights</h2>
+  <p>You have the right to request access to, correction of, or deletion of any personal information we hold. Contact us at <span id="e3"></span> and we will respond within 30 days.</p>
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this policy from time to time and will post the updated date at the top of this page.</p>
+  <h2>10. Contact</h2>
+  <p>Privacy questions: <span id="e4"></span></p>
+  <p>Storyline Systems - United States</p>
+</div>
+<footer>
+  <p>2026 Storyline Systems &nbsp; <a href="/terms.html">Terms of Service</a> &nbsp; <a href="/refund.html">Refund Policy</a> &nbsp; <a href="/privacy.html">Privacy Policy</a> &nbsp; <span id="e5"></span></p>
+</footer>
+<script>
+var u="help",d="storylinesystems.com",em=u+"@"+d;
+["e1","e2","e3","e4","e5"].forEach(function(id){
+  var el=document.getElementById(id);
+  if(el){var a=document.createElement("a");a.href="mailto:"+em;a.textContent=em;el.appendChild(a);}
+});
+</script>
+</body>
+</html>
