@@ -462,7 +462,6 @@
         <li>Draft → Editing → Ready → Published</li>
         <li>JSON backup &amp; CSV import/export</li>
         <li>Local-first — your data stays on your machine</li>
-        <li>Free updates for life</li>
         <li>Direct developer support</li>
       </ul>
       <a href="https://storylinesystems.lemonsqueezy.com/checkout/buy/693d1cab-e735-4274-ab36-e3b998f5cce3" class="btn-pricing">Get Relastra — $97 →</a>
@@ -481,6 +480,17 @@
 var u="help",d="storylinesystems.com",em=u+"@"+d;
 var el=document.getElementById("fe1");
 if(el){var a=document.createElement("a");a.href="mailto:"+em;a.textContent=em;el.appendChild(a);}
+</script>
+<script>
+function switchTab(id) {
+  document.querySelectorAll('.tab-panel').forEach(function(p){ p.classList.remove('active'); });
+  document.querySelectorAll('.tab-btn').forEach(function(b){ b.classList.remove('active'); });
+  var panel = document.getElementById(id);
+  if (panel) panel.classList.add('active');
+  document.querySelectorAll('.tab-btn').forEach(function(b){
+    if (b.getAttribute('onclick') && b.getAttribute('onclick').indexOf(id) !== -1) b.classList.add('active');
+  });
+}
 </script>
 </body>
 </html>
